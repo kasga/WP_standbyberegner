@@ -1,0 +1,547 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Standbyberegner</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="assets/css/jquery.bxslider.css">
+    <link rel="stylesheet" href="assets/css/z_de_standby.css?v=2.4">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KXZJ48"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KXZJ48');</script>
+    <!-- End Google Tag Manager -->
+    
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-63269475-1', 'auto');
+    </script>
+    <style type="text/css">
+      .z_view {
+        max-width: 100% !important;
+      }
+    </style>
+    <div class="container-fluid">
+      <main id="zupa_41436_standby">
+
+        <!--[if gte IE 9]>
+          <style type="text/css">
+          .gradient {
+            filter: none;
+          }
+          </style>
+        <![endif]-->
+
+        <div class="z_preloader_wrap">
+          <div class="z_preloader">
+            <canvas id="z_load_circle" width="64" height="64"></canvas>
+          </div>
+        </div>
+
+        <section class="z_question_views"><!-- All question views -->
+
+          <article class="z_view z_start">
+
+            <div class="row no-gutters">
+              <div class="col-sm-12">
+                <button class="btn" id="z_start">Start</button>
+              </div>
+              
+            </div>
+
+          </article>
+
+
+          <article class="z_view">
+
+            <header class="z_view_header">
+
+              <div class="flex-row circle-row step-head">
+                
+                <div class="theme-content">
+                    <span class="z_view_title"></span>
+                    <span class="z_step_txt"></span>
+                </div>
+              </div>
+              
+              <!--
+              <h1 class="z_view_title _strong"></h1>
+              <h3 class="z_step_txt _strong"></h3>
+              <p class="z_step_subh"></p>
+              <div class="z_acc_wrap">
+                <span class="z_acc_trigger"></span>
+                <div class="z_acc_content"></div>
+              </div>
+              -->
+            </header>
+
+            <div class="z_question_wrap">
+              <!--
+              <header class="z_question_header row">
+                <div class="z_header_img col-md-3 pull-right">
+                </div>
+                <div class="z_header_txt col-md-3 pull-right">
+                </div>
+              </header>
+              -->
+              <section class="z_questions"></section>
+            </div>
+
+            <footer class="z_cta_footer">
+              <div class="z_inner row">
+                <div class="z_yearly_cost_desc col-xs-4"></div>
+                <div class="z_yearly_cost_price col-xs-2"></div>
+                <!--
+                <div class="col-md-6 _underlined">
+                  <span></span>
+                  <span></span>
+                </div>
+                -->
+              </div>
+            </footer>
+
+          </article>
+
+
+          <article class="z_view">
+
+            <header class="z_view_header">
+              <div class="flex-row circle-row step-head">
+                
+                <div class="theme-content">
+                  <h4>
+                    <span class="z_view_title"></span>
+                    <span class="z_step_txt"></span>
+                  </h4>
+                </div>
+              </div>
+            </header>
+
+            <div class="z_question_wrap">
+              <section class="z_questions"></section>
+            </div>
+
+            <footer class="z_cta_footer">
+              <div class="z_inner row">
+                <div class="z_yearly_cost_desc col-xs-4"></div>
+                <div class="z_yearly_cost_price col-xs-2"></div>
+              </div>
+            </footer>
+
+          </article>
+
+
+          <article class="z_view">
+              
+            <header class="z_view_header">
+              <div class="flex-row circle-row step-head">
+                
+                <div class="theme-content">
+                  <h4>
+                    <span class="z_view_title"></span>
+                    <span class="z_step_txt"></span>
+                  </h4>
+                </div>
+              </div>
+            </header>
+
+            <div class="z_question_wrap">
+              <section class="z_questions"></section>
+            </div>
+
+            <footer class="z_cta_footer">
+              <div class="z_inner row">
+                <div class="z_yearly_cost_desc col-xs-4"></div>
+                <div class="z_yearly_cost_price col-xs-2"></div>
+              </div>
+            </footer>
+
+          </article>
+
+
+          <article class="z_view">
+              
+            <header class="z_view_header">
+              <div class="flex-row circle-row step-head">
+                
+                <div class="theme-content">
+                  <h4>
+                    <span class="z_view_title"></span>
+                    <span class="z_step_txt"></span>
+                  </h4>
+                </div>
+              </div>
+            </header>
+
+            <div class="z_question_wrap">
+              <section class="z_questions"></section>
+            </div>
+
+            <footer class="z_cta_footer">
+              <div class="z_inner row">
+                <div class="z_yearly_cost_desc col-xs-4"></div>
+                <div class="z_yearly_cost_price col-xs-2"></div>
+              </div>
+            </footer>
+
+          </article>
+
+
+          <article class="z_view">
+              
+            <header class="z_view_header">
+              <div class="flex-row circle-row step-head">
+                
+                <div class="theme-content">
+                  <h4>
+                    <span class="z_view_title"></span>
+                    <span class="z_step_txt"></span>
+                  </h4>
+                </div>
+              </div>
+            </header>
+
+            <div class="z_question_wrap">
+              <section class="z_questions"></section>
+            </div>
+
+            <footer class="z_cta_footer">
+              <div class="z_inner row">
+                <div class="z_yearly_cost_desc col-xs-4"></div>
+                <div class="z_yearly_cost_price col-xs-2"></div>
+              </div>
+            </footer>
+
+          </article>
+
+
+          <article class="z_view">
+              
+            <header class="z_view_header">
+              <div class="flex-row circle-row step-head">
+                
+                <div class="theme-content">
+                  <h4>
+                    <span class="z_view_title"></span>
+                    <span class="z_step_txt"></span>
+                  </h4>
+                </div>
+              </div>
+            </header>
+
+            <div class="z_question_wrap">
+              <section class="z_questions"></section>
+            </div>
+
+            <footer class="z_cta_footer">
+              <div class="z_inner row">
+                <div class="z_yearly_cost_desc col-xs-4"></div>
+                <div class="z_yearly_cost_price col-xs-2"></div>
+              </div>
+            </footer>
+
+          </article>
+
+
+          <article class="z_view">
+            
+            <header class="z_view_header z_result_header">
+              <div class="z_result_graph">
+                <div class="z_result_info">
+                  <span class="_small _thin">Cirka</span>
+                  <span class="_big _strong z_the_result">0</span>
+                  <span class="_small _thin">kroner per år</span>
+                </div>
+                <span class="z_bg"></span>
+              </div>
+              <h4 class="z_view_title">Så meget kan du spare på dit årlige standby-forbrug</h4>
+            </header>
+            
+            <div class="row z_result_top">
+              <h4>Sådan fordeler dit standby-forbrug sig</h4>
+              <p>Resultatet er et skøn og kan derfor afvige fra dit faktiske standby-forbrug, da det afhænger af dine apparattyper og alderen på dem.</p>
+              <div class="z_acc_wrap">
+                <span class="z_acc_trigger">Sådan beregner vi dit forbrug</span>
+                <div class="z_acc_content">
+                  <p>Standby-forbruget er baseret på et gennemsnit af målinger fra nye og ældre apparater i det antal timer, hvor apparatet ikke er i brug. Jo nyere dine apparater er, jo mindre er deres standby-forbrug. Ønsker du at udregne dit nøjagtige standby-forbrug for hver af dine apparater, kan du benytte et SparOmeter. Det kan du købe i de fleste byggemarkeder eller forretninger med hårde hvidevarer.</p>
+                  <p>Prisen, der er benyttet i omregningen af standby-forbruget, er 2,25 kr. pr. kWh + abonnement. Prisen er baseret på et gennemsnit af 2017-prisen på Ørsteds Basis El (øst for Storebælt). Prisen er inklusive Radius Elnets priser på distribution, afgifter til staten og moms.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-row direction-col theme theme-blue">
+
+              <div class="z_cost_details">
+
+                <div class="flex-row circle-row result" data-res="0">
+                  <div class="theme theme-image-circle icon" data-image="assets/img/res_1.png" data-size="75%"></div>
+                  <div class="theme-content">
+                    <h4>
+                      <span class="_text"></span>
+                      <span class="_price"></span>
+                    </h4>
+                  </div>
+                </div>
+
+                <div class="flex-row circle-row result" data-res="1">
+                  <div class="theme theme-image-circle icon" data-image="assets/img/res_2.png"></div>
+                  <div class="theme-content">
+                    <h4>
+                      <span class="_text"></span>
+                      <span class="_price"></span>
+                    </h4>
+                  </div>
+                </div>
+
+                <div class="flex-row circle-row result" data-res="2">
+                  <div class="theme theme-image-circle icon" data-image="assets/img/res_3.png"></div>
+                  <div class="theme-content">
+                    <h4>
+                      <span class="_text"></span>
+                      <span class="_price"></span>
+                    </h4>
+                  </div>
+                </div>
+
+                <div class="flex-row circle-row result" data-res="3">
+                  <div class="theme theme-image-circle icon" data-image="assets/img/res_4.png"></div>
+                  <div class="theme-content">
+                    <h4>
+                      <span class="_text"></span>
+                      <span class="_price"></span>
+                    </h4>
+                  </div>
+                </div>
+
+                <div class="flex-row circle-row result" data-res="4">
+                  <div class="theme theme-image-circle icon" data-image="assets/img/res_5.png"></div>
+                  <div class="theme-content">
+                    <h4>
+                      <span class="_text"></span>
+                      <span class="_price"></span>
+                    </h4>
+                  </div>
+                </div>
+
+                <div class="flex-row circle-row result" data-res="5">
+                  <div class="theme theme-image-circle icon" data-image="assets/img/res_6.png"></div>
+                  <div class="theme-content">
+                    <h4>
+                      <span class="_text"></span>
+                      <span class="_price"></span>
+                    </h4>
+                  </div>
+                </div>
+
+              </div>
+
+              <button class="btn _first">Justér mine valg</button>
+
+            </div>
+
+            
+            <div class="row z_recommendations recommendation">
+              <div class="z-img-savings"><img src="assets/img/tip_1.jpg"></div>
+              <div class="theme-content">
+                <h4>Sænk dit standby-forbrug</h4>
+                <p>Det er heldigvis hverken svært eller besværligt at skrue ned for standby-forbruget. Du skal såmænd bare slukke for dine apparater på stikkontakten.</p>
+                <a href="https://privat.orsted.dk/nyhedsbrev/6-sparetips/" class="btn btn-blue">Få 6 enkle spareråd</a>
+              </div>
+            </div>
+
+           
+
+            <div class="sign-up-confirmation page hidden">
+              <h2>Tak fordi du har tilmeldt dig</h2>
+              
+              <div class="spacer"></div>
+              <p>Her kan du se de informationer, du har givet os:</p>
+              <p>
+                <strong>Navn:</strong> <span data-bind="fullName"></span><br/>
+                <strong>Adresse:</strong> <span data-bind="address"></span><br/>
+                <strong>Telefon:</strong> <span data-bind="phone"></span><br/>
+                <strong>E-mail:</strong> <span data-bind="mail"></span><br/>
+                <span class="customerid-container">
+                  <strong>Kundenummer:</strong> <span data-bind="customerId"></span>
+                </span>
+              </p>
+              <div class="spacer"></div>
+              <p>Hvis du på et tidspunkt finder ud af, at det ikke er noget for dig, kan du nemt afmelde dig igen.</p>
+              <a href="https://www.privat.orsted.dk/nyhedsbrev/afmeld-nyhedsbrev/" target="_blank" class="btn btn-blue">Afmeld her</a>
+            </div>
+
+            <div class="sign-up-container page">
+              <h2>Få sæsonens bedste tips</h2>
+              <p>
+              Vil du gerne skrue ned for dit energiforbrug? Så tilmeld dig vores nyhedsbrev. Cirka 6 gange om året samler vi
+              energirådgivernes bedste råd til energibesparelser i hjemmet og sender dem til dig sammen med den nyeste viden om god
+              energi.</p>
+              <form method="post" class="newsletter-form">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="form-group">
+                      <div class="form-group-content mandatory" data-error="Hvad er dit fornavn?">
+                        <label>Fornavn</label>
+                        <input name="name" data-init="orsted.input" data-validate=".{2,}" data-error="Indtast et gyldigt navn" type="text">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-3">
+                    <div class="form-group">
+                      <div class="form-group-content mandatory" data-error="Hvad er dit efternavn?">
+                        <label>Efternavn</label>
+                        <input name="surName" data-init="orsted.input" data-validate=".{2,}" data-error="Indtast et gyldigt navn" type="text">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <div class="form-group-content mandatory" data-error="Hvad er adressen?">
+                        <label>Adresse<span class="form-help" data-help="Når vi kender din adresse, kan vi sende nyheder og tilbud, tilpasset dit nærområde, og som er relevant for dig."></span></label>
+                        <input name="address" data-init="orsted.input" type="text" spellcheck="false" data-type="autocomplete">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="form-group">
+                      <div class="form-group-content mandatory" data-error="Hvad er dit telefonnummer (8 tal)?">
+                        <label>Telefon</label>
+                        <input name="phone" data-init="orsted.input" type="text" autocomplete="off" data-error="Indtast et gyldigt nummer">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-3">
+                    <div class="form-group">
+                      <div class="form-group-content mandatory" data-error="Hvad er din e-mailadresse?">
+                        <label>E-mail</label>
+                        <input name="email" data-init="orsted.input" type="text" data-validate="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" data-error="Er din e-mailadresse korrekt? Tjek, og prøv igen.">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="spacer-large"></div>
+                    <div class="form-group">
+                      <div class="form-group-content mandatory" data-error="Er du kunde hos os?">
+                        <legend>Er du kunde hos os?</legend>
+                        <label class="basic-radiobutton-inline">
+                          <input type="radio" data-init="orsted.radiobutton" name="orstedCustomer" value="1">
+                          Ja
+                        </label>
+                        <label class="basic-radiobutton-inline">
+                          <input type="radio" data-init="orsted.radiobutton" name="orstedCustomer" value="0">
+                          Nej
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                    
+                  <div class="col-sm-3 customerid hidden">
+                    <div class="form-group">
+                      <div class="form-group-content">
+                        <label>Kundenummer</label>
+                        <input name="customerId" data-init="orsted.input" type="text">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <div class="form-group-content terms mandatory" data-error="Du skal huske at acceptere leverings&shy;betingelser og vilkår">
+                        <label class="terms-checkbox-inline">
+                          <input type="checkbox" data-init="orsted.checkbox" name="terms" value="1">
+                          Ja tak, jeg vil gerne modtage nyheder, gode tilbud og konkurrencer fra Ørsted Salg &amp; Service A/S og 
+                        </label>
+                        <a class="link-inline popover-trigger">Accepter betingelser</a>
+                        <div class="popover full">
+                          <div class="popover-content">
+                            Ørsted Salg &amp; Service A/S må fremover kontakte dig via brev, e-mail, telefon og sms med nyheder, relevant information, energisparetips, konkurrencer og gode tilbud om el, naturgas, varmeservice og intelligente boligprodukter. Vi håber, du vil give det en chance. Hvis det ikke er noget for dig, kan du nemt afmelde det igen. Vi sælger eller giver selvfølgelig ikke dine oplysninger til andre.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="btn-group navigation hidden-xs">
+                      <input type="submit" value="Få vores nyhedsbrev" class="btn pull-right">
+                    </div>
+                    <div class="btn-group navigation visible-xs">
+                      <input type="submit" value="Få vores nyhedsbrev" class="btn block">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+          </article>
+
+        </section>
+
+        <footer class="z_view_ctas">
+          <button class="link-arrow-back _prev">Tilbage</button>
+          <button class="btn pull-right _nxt">Fortsæt</button>
+        </footer>
+
+      </main>
+    </div>
+    <script src="assets/js/vendor/iframeResizer.contentWindow.min.js"></script>
+    <script src="assets/js/vendor/LAB.min.js"></script>
+    <script>
+      $LAB
+        .setOptions({
+          CacheBust: true
+        })
+        .script([
+          '//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js',
+          'assets/js/vendor/hammer.min.js',
+          'assets/js/vendor/jquery.autocomplete.min.js'
+        ]).wait()
+        .script([
+          'assets/js/vendor/activeLabel.js',
+          'assets/js/vendor/jquery.bxslider.js',
+          'assets/js/vendor/jquery.hammer.js',
+          'assets/js/vendor/jquery.xdomainrequest.min.js',
+          'assets/js/vendor/Chart.min.js',
+          '//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/plugins/ScrollToPlugin.min.js'
+          ]).wait()
+          .script([
+          'assets/js/orsted.input.js',
+          'assets/js/orsted.radiobutton.js',
+          'assets/js/orsted.checkbox.js',
+          'assets/js/orsted.select.js',
+          'assets/js/orsted.validate.js',
+          // Data
+          'assets/js/orsted.data.js'
+        ]).wait()
+        .script('assets/js/main.js');
+    </script>
+
+  </body>
+</html>

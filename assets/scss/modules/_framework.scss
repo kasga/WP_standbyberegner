@@ -1,0 +1,67 @@
+::-webkit-input-placeholder {
+   color: $placeholder_color;
+}
+:-moz-placeholder {
+   color: $placeholder_color;
+}
+::-moz-placeholder {
+   color: $placeholder_color;
+}
+:-ms-input-placeholder {
+   color: $placeholder_color;
+}
+// Input types array
+$types: (
+	"text", "date", "week", "time", "email", "password", "number", "search"
+);
+
+@each $type in $types {
+	input[type="#{$type}"] {
+		outline: none;
+		width: 100%;
+		height: 38px;
+		padding: 0 11px;
+		border: 1px solid $text_color;
+		color: $text_color;
+		font-size: 15px;
+		&:focus {
+
+		}
+	}
+}
+.z_ctrl_grp {
+	position: relative;
+	::selection {
+		background-color: transparent;
+	}
+	::-moz-selection {
+		background-color: transparent;
+	}
+	[type="checkbox"] {
+
+	}
+	label {
+		display: block;
+ 		cursor: pointer;
+ 		margin-bottom: 6px;
+ 		padding-left: 1px;
+	}
+}
+
+
+p, span {
+	@include fontsize(1.2);
+}
+
+strong, b {
+	font-weight: normal; // for safety – we don't wanna faux bold our clients' pretty, custom fonts :-)
+	// add the bold version of a custom font here
+}
+
+small {
+	@include fontsize(1.2);
+}
+
+h1 {
+	@include fontsize(4);
+}
