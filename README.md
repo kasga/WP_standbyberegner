@@ -1,2 +1,6 @@
 # WP_standbyberegner
-New WP design added to the Standbyberegner
+Navigate to the Standbyberegner root folder and start Gulp to compile SASS files
+
+```
+gulp watch
+```
